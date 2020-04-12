@@ -1,0 +1,223 @@
+*{
+  margin:0;
+  padding:0;  
+  box-sizing: border-box;
+}
+
+
+div#Contenedor_General{
+    margin: auto;
+    margin-top:5%;
+    width: 1100px; /*Aumenta el tamaño hacia los lados del contenedor.*/
+    height: 4890px; /*Aumenta el tamaño hacia abajo del contenedor.*/
+    background: #618685; /*Color gris del contenedor.*/
+    align-items: center; /*Centra el contenedor principal.*/
+    border-radius: 50px; /*Para adaptar los bordes del contenedor general en las puntas redondas*/
+   
+}
+
+ div#Contenerdor_Central{
+     float: ;
+     height: 300px;
+     background: #C0CA33 ;
+     display: flex; /*Hace que el contenedor se mantenga fijo al momento de bajar la barra.*/
+     justify-content: center; /*Centra el contenedor principal.*/
+     border-radius: 50px; 
+    }   
+
+div#Titulo_Cont_Central{
+    color: aqua;
+    
+    
+}
+
+ div#Contenerdor_Izquierdo{
+     
+     float: left; 
+     width: 480px;
+     height: 600px;
+     background-color:darkslategrey;
+      border-radius: 2%;  
+    }   
+
+ div#Contenerdor_Derecho{
+     
+     float: right; 
+     width: 300px;
+     height: 600px;
+     background-color:darkslategrey;
+      border-radius: 10%;  
+    }  
+
+
+ div#Contenerdor_Abajo{
+     border: double;
+     margin-top:60%;
+     width: 850px;
+     height: 500px;
+     background-color:black;
+     justify-content:center; /*Centra el contenedor principal.*/
+       
+    }  
+
+
+div#HTML_Preguntas{
+    border: double;
+     margin-top:1%;
+     width: 850px;
+     height: 600px;
+     background-color:antiquewhite;
+     justify-content:center; /*Centra el contenedor principal.*/
+    border-radius: 5%;  
+}
+
+div#CSS_Preguntas{
+    border: double;
+     margin-top:1%;
+     width: 850px;
+     height: 600px;
+     background-color:antiquewhite;
+     justify-content:center; /*Centra el contenedor principal.*/
+    border-radius: 5%;
+}
+
+div#Biografia{
+    border: double;
+     margin-top:1%;
+     width: 850px;
+     height: 600px;
+     background-color:antiquewhite;
+     justify-content:center; /*Centra el contenedor principal.*/
+}
+
+
+
+div#Contenedor_Video{
+    
+     margin-top:1%;
+     width: 300px;
+     height: 50px;
+     background-color:black;
+     justify-content:center; /*Centra el contenedor principal.*/
+ 
+}
+
+div#Contenedor_Mapa{
+   
+     margin-top:1%;
+     width: 300px;
+     height: 80px;
+     background-color:black;
+     justify-content:center; /*Centra el contenedor principal.*/
+}
+
+
+
+/*------SOLO ICONO TITULO.-----*/
+div#Icono_Titlle{
+    margin: 2px 5pc;
+    width: 5px;
+    height: 5px;
+    
+
+}
+
+/*------CONTENEDOR TITULO.-----*/
+div#Contenedor_Tittle{
+    margin: 2px 5pc;
+    width: 500px;
+    height: 0px; 
+    
+}
+
+/*------MENU------*/
+
+.navegación{
+
+    margin: -10px 60pc;
+    width: 500px;
+    height: 0px; 
+
+ }
+
+ .navegación ul{
+list-style: none;
+
+}
+
+
+.Menu li{
+display: inline-block;
+
+
+}
+
+.Menu li > a {
+display: block;
+padding: 5x 1px;
+color: #fff;
+font-family: _'Open sans'_;
+text-decoration: none;
+
+}
+
+
+.Menu li a:hover{
+
+    color: #CE7D35;
+}
+/*------------*/
+
+header{
+    width:100%;
+    height: 50px;
+    background: #333;
+    color:antiquewhite;
+    
+    
+    position: fixed; /*Estamos fijando la posición fija.*/
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center; /*Ponemos el texto centrado.*/
+    word-wrap: break-word; /*Evitamos que el texto se salga del contenedor.*/ 
+}
+
+/*CIRCULOS*/
+	#info{
+		
+		color: #fff;
+		text-align: center;
+		
+	}
+	
+		#info .contenedor{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+            
+	}
+
+		.info-pet{
+		margin: 20px;
+	}
+
+/*IMAGENES EN CIRCULO, SE PUEDE AUMENTAR EL BORDE
+,TAMAÑO Y RADIO Y COLOCAR COLOR AL BORDE*/
+		.info-pet img{
+		width: 200px;
+		height: 200px;
+		border-radius: 30%;
+		border:7px solid #618685;
+	}
+
+div#copyright{
+    
+     margin-top:1%;
+     width: 100%; /*Aumenta el tamaño hacia los lados del contenedor.*/
+     height: 100px;
+     background-color:white;
+     
+   
+}
+
